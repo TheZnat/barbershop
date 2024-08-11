@@ -60,11 +60,13 @@ body {
   gap: 26px;
   flex-direction: row;
   list-style-type: none;
+  align-items: center;
 }
 
 .aboutUs {
   display: flex;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .aboutUs__textArea {
@@ -84,6 +86,7 @@ body {
   line-height: 140%;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 16px;
 }
 
 .aboutUs__textArea__subtitle {
@@ -99,4 +102,80 @@ body {
 .aboutUs__photo {
   width: 588px;
   height: 662px;
+}
+
+.bth--header {
+  width: 180px;
+  height: 48px;
+}
+
+.bth--green {
+  border: 1px solid rgb(42, 77, 69);
+  border-radius: 8px;
+  background: linear-gradient(0deg, rgb(5, 43, 36), rgb(18, 54, 47) 100%);
+  padding: 14px 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.bth--transparent {
+  border: 1px solid rgb(0, 20, 16);
+  border-radius: 8px;
+  padding: 14px 20px 14px 20px;
+  background: rgb(254, 252, 250);
+  cursor: pointer;
+}
+
+.bth--about {
+  width: 224px;
+  height: 48px;
+}
+
+.bth--text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.aboutUs__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: rgb(94, 94, 93);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.aboutUs__info__metro {
+  display: flex;
+  gap: 16px;
+}
+
+.aboutUs__info__metro__title {
+  display: flex;
+  gap: 4px;
+  align-items: baseline;
+}
+
+.img--Metro {
+  width: 25.83px;
+  height: 20px;
+}
+
+.portfolio {
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.portfolio__title {
+  margin-bottom: 40px;
 }

@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" href="/barber-shop.png" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Johnny Beard</title>
 </head>
 
 <body>
@@ -17,48 +18,54 @@
 
     <div>
 
-    <div class="header__menu">
-      <ul class="header__menu__linkArea">
-        <li>Портфолио</li>
-        <li>Наши услуги</li>
-        <li>Отзывы клиентов</li>
-        <li>Адрес</li>
-      </ul>
-      <button>Записаться</button>
-    </div>
+      <div class="header__menu">
+        <ul class="header__menu__linkArea">
+          <li>Портфолио</li>
+          <li>Наши услуги</li>
+          <li>Отзывы клиентов</li>
+          <li>Адрес</li>
+        </ul>
+        <button class="bth--green bth--header bth--text">Записаться</button>
+      </div>
 
-  </div>
+    </div>
   </header>
   <section class="aboutUs">
     <div class="aboutUs__textArea">
-     
-
-      <h1 class="aboutUs__textArea__title">Cамая творческая команда Питера</h1>
-      <p class="aboutUs__textArea__subtitle">Мы больше, чем просто Barbershop. Мы - крутая тусовка креативных мастеров, которые не просто стригут, а создают
-        шедевры!</p>
 
       <div>
-        <button>Забронировать визит</button>
-        <button>Посмотреть услуги</button>
+        <h1 class="aboutUs__textArea__title">Cамая творческая команда Питера</h1>
+        <p class="aboutUs__textArea__subtitle">Мы больше, чем просто Barbershop. Мы - крутая тусовка креативных
+          мастеров, которые не просто стригут, а создают
+          шедевры!</p>
       </div>
 
       <div>
+        <button class="bth--green bth--text bth--about">Забронировать визит</button>
+        <button class="bth--transparent bth--text bth--about">Посмотреть услуги</button>
+      </div>
+
+      <div class="aboutUs__info">
         <p>Ежедневно 10:00 — 22:00</p>
-        <div>
-          <div>
-            <img>
+        <div class="aboutUs__info__metro">
+          <div class="aboutUs__info__metro__title">
+            <img src="/icon/MetroPetroga.svg" alt="Метро" class="img--Metro">
             <p>Петроградская</p>
           </div>
-          <div>
-            <img>
+          <div class="aboutUs__info__metro__title">
+            <img src="/icon/MetroChal.svg" alt="Метро" class="img--Metro">
             <p>Чкаловская</p>
           </div>
         </div>
         <p>ул. Большая Якиманка 21</p>
       </div>
-      
+
     </div>
     <img src="/aboutUs.png" class="aboutUs__photo" alt="фото работы мастера" />
+
+  </section>
+  <section class="portfolio">
+    <h2 class="title portfolio__title">Наше портфолио</h2>
 
   </section>
 
