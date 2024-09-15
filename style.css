@@ -20,9 +20,9 @@ body {
   width: 100vw;
   height: 100%;
   scroll-behavior: smooth;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   overflow-x: hidden;
   background: rgb(254, 252, 250);
 }
@@ -67,6 +67,8 @@ body {
   display: flex;
   margin-top: 60px;
   margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutUs__textArea {
@@ -175,7 +177,6 @@ body {
   font-size: 40px;
   font-weight: 600;
   line-height: 140%;
-  letter-spacing: 0%;
 }
 
 .portfolio__title {
@@ -185,14 +186,6 @@ body {
 .portfolio__gallery {
   position: relative;
   padding-bottom: 700px;
-
-  /* overflow: visible;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow-x: hidden;
-  */
 }
 
 .portfolio__gallery__slider {
@@ -202,7 +195,6 @@ body {
   display: flex;
   align-items: start;
   gap: 24px;
-
   margin-bottom: 20px;
 }
 
@@ -254,4 +246,113 @@ body {
   width: 44px;
   height: 44px;
   border: none;
+}
+
+.services__price {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  width: 1200px;
+}
+
+.services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.services__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 1200px;
+}
+
+.services__price__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.service-line {
+  display: grid;
+  grid-template-columns: auto 1fr auto 180px 62px;
+  gap: 10px;
+  align-items: center; /* Выравнивание по вертикали */
+  width: 100%;
+}
+
+.service-name {
+  white-space: nowrap;
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(217, 217, 217);
+  margin: 0 10px;
+}
+
+.no-line {
+  margin: 0 10px;
+}
+
+.services__price--title {
+  color: rgb(7, 45, 38);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.line-1 {
+  flex-grow: 2;
+}
+
+.line-2 {
+  flex-grow: 1;
+}
+
+.service-time {
+  text-align: right;
+  margin-right: 14px;
+}
+
+.service-price {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.services__price__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.services__price--title--price {
+  text-align: right;
+}
+
+.services__price__block--title {
+  margin-bottom: -28px;
+}
+
+.masters {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
